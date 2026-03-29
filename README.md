@@ -8,14 +8,14 @@
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 This project addresses the **Tourist Route Problem**, an optimization challenge aimed at selecting **m** locations from **C** candidates. The goal is to maximize the average geographic distance between selected points to promote sustainable tourism and visitor dispersion.
 
 The solution's quality is evaluated using a fitness function that calculates the mean distance between all pairs of selected elements:
 
 $$DM(P)=\frac{1}{m}\times\sum_{i=1}^{m-1}\sum_{j=i+1}^{m}dist(e_{i},e_{j})$$
 
-## 🧠 Implemented Algorithms
+##  Implemented Algorithms
 
 ### 1. Local Search (Hill Climbing / Trepa-Colinas)
 * **Strategy**: Uses a stochastic start and explores neighbors to find local optima.
@@ -33,7 +33,7 @@ $$DM(P)=\frac{1}{m}\times\sum_{i=1}^{m-1}\sum_{j=i+1}^{m}dist(e_{i},e_{j})$$
 * **Hybrid 1**: Initial population refinement using Local Search before starting the evolution.
 * **Hybrid 2**: Post-evolution refinement of the single best solution found by the EA.
 
-## 📂 Project Structure
+##  Project Structure
 * **`src/`**: Source files including algorithm logic, fitness calculations, and utilities.
 * **`data/`**: Problem instances (e.g., `tourism_500.txt`) with distance matrices.
 * **`docs/`**: Technical report and project specifications.
