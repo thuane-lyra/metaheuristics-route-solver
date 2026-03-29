@@ -34,11 +34,11 @@ $$DM(P)=\frac{1}{m}\times\sum_{i=1}^{m-1}\sum_{j=i+1}^{m}dist(e_{i},e_{j})$$
 * **Hybrid 2**: Post-evolution refinement of the single best solution found by the EA.
 
 ##  Project Structure
-* **`src/`**: Source files including algorithm logic, fitness calculations, and utilities.
-* **`data/`**: Problem instances (e.g., `tourism_500.txt`) with distance matrices.
-* **`docs/`**: Technical report and project specifications.
+**`codigo/`**: Directory containing all C source code (`.c`) and header files (`.h`).
+**`excel/`**: Folder containing the complete experimental study and detailed statistical data analysis.
+**`Relatório-ThuaneLyra-LuanaRabello.pdf`**: Detailed technical report including the project's methodology, experimental analysis, and conclusions
 
-## 👥 Authors
+## Authors
 * **Thuane Lyra** 
 * **Luana Rabello** 
 
