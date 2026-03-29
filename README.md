@@ -1,8 +1,8 @@
 # Tourist Route Optimization - Meta-heuristics & Evolutionary Solver
 
-![C](https://img.shields.io/badge/Language-C-00599C)
-![AI](https://img.shields.io/badge/Field-AI%20Optimization-A61206)
-![Meta-heuristics](https://img.shields.io/badge/Logic-Meta--heuristics-FF8C00)
+![C](https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![AI](https://img.shields.io/badge/Field-AI%20Optimization-A61206?style=for-the-badge)
+![Meta-heuristics](https://img.shields.io/badge/Logic-Meta--heuristics-FF8C00?style=for-the-badge)
 ![Excel](https://img.shields.io/badge/Results-Excel%20Analysis-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 ---
